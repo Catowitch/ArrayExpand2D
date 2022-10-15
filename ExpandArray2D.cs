@@ -65,6 +65,8 @@ public class ExpandArray2D
                     break;
             }
         }
+    
+    
         public static void ExpandArray<T>(ref T[,] arr, Direction dir, int amount)
         {
             T[,] tmpArr = new T[arr.GetLength(0), arr.GetLength(1)];
